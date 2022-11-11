@@ -5,6 +5,7 @@ export class ToDoItem {
         }
 
     printDetails() : void {
-        console.log(`${this.id}\t${this.task} ${this.complete} ? "\t(completed)" : "\t(not completed)"`)
+        let completeStr: String = this.complete ? "(completed)" : "(not completed)"
+        console.log(`${this.id}\t${this.task}\t${completeStr}`)
     }
 }
