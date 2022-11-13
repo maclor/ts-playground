@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Clean the desk",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "task": "Learn TypeScript",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "task": "Teach Franek how to count in binary",
+      "complete": true
+    },
+    {
+      "id": 4,
+      "task": "Build binary 4 bit calculator",
+      "complete": false
+    },
+    {
+      "id": 5,
+      "task": "Go sleep",
+      "complete": false
+    },
+    {
+      "id": 6,
+      "task": "Better work with package.json to compile more efficient",
+      "complete": false
+    }
+  ]
+}

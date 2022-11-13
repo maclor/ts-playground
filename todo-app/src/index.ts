@@ -1,16 +1,9 @@
 import { ToDoCollection } from "./toDoCollection";
 import { ToDoItem } from "./toDoItem";
 import * as inquirer from 'inquirer';
+import { JsonToDoCollection } from "./jsonToDoCollection";
 
-let toDos: ToDoItem[] = [
-    new ToDoItem(1, 'Clean the desk'),
-    new ToDoItem(2, 'Learn TypeScript'),
-    new ToDoItem(3, 'Teach Franek how to count in binary'),
-    new ToDoItem(4, 'Build binary 4 bit calculator'),
-    new ToDoItem(5, 'Go sleep')
-]
-
-let collection: ToDoCollection = new ToDoCollection('Maciek', toDos)
+let collection: ToDoCollection = new JsonToDoCollection('Maciek', [])
 let showCompleted = true
 
 enum Commands {

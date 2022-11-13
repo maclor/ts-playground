@@ -7,7 +7,7 @@ type ItemCounts = {
 
 export class ToDoCollection {
     private nextId: number = 1
-    private itemMap = new Map<number, ToDoItem>()
+    protected itemMap = new Map<number, ToDoItem>()
 
     constructor(public userName: string, toDoItems: ToDoItem[] = []) {
         toDoItems.forEach(item => this.itemMap.set(item.id, item))
