@@ -4,7 +4,7 @@ export class ToDoItem {
         public complete: boolean = false) {
         }
 
-    printDetails() : void {
+    printDetails(): void {
         let completeStr: String = this.complete ? "(completed)" : "(not completed)"
         console.log(`${this.id}\t${this.task}\t${completeStr}`)
     }

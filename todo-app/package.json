@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/maclor/ts-playground/issues"
   },
-  "homepage": "https://github.com/maclor/ts-playground#readme"
+  "homepage": "https://github.com/maclor/ts-playground#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.3"
+  }
 }
