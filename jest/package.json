@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "```\r docker run -it --rm -v ${PWD}:/app -w /app node:19 bash\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  }
+}
